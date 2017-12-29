@@ -261,12 +261,10 @@ p a {
     padding: 40px 0 22px 0;
     text-transform: uppercase;
 }
-
 .tagline {
     margin: 66px 0 22px 0;
     text-align: right;
 }
-
 .primary-nav {
     font-size: 14px;
     font-weight: 400;
@@ -300,7 +298,14 @@ p a {
 .nav {
     text-align: right;
   }
-  
+ .nav li {
+    display: inline-block;
+    margin: 0 10px;
+    vertical-align: top;
+}
+.nav li:last-child {
+    margin-right: 0;
+} 
 
 /*
   ========================================
@@ -325,5 +330,20 @@ p a {
 .teaser a:hover h3 {
     color: #a9b2b9;
   }
-  
+
+/*
+  ========================================
+  Speakers
+  ========================================
+*/
+.speaker {
+    margin-bottom: 44px;
+}
+.speaker-info {
+    border: 1px solid #dfe2e5;
+    border-radius: 5px;
+    margin-top: 88px;
+    padding: 22px 0;
+    text-align: center;
+}
   
